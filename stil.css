@@ -1,0 +1,16 @@
+:root { --vurgu: #1F5FD1; --metin: #0F1B2D; --soluk: #5B6B82; --zemin: #F4F6FA; --kart: #FFFFFF; --cizgi: #E2E7EF; }
+@media (prefers-color-scheme: dark) { :root { --vurgu: #6EA2FF; --metin: #E8EDF5; --soluk: #9AA7BA; --zemin: #0B1220; --kart: #131C2E; --cizgi: #22304A; } }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; background: var(--zemin); color: var(--metin); line-height: 1.6; }
+.ust { background: linear-gradient(135deg, #3B86F5, #1F5FD1 50%, #0B2F6B); color: #fff; padding: 48px 16px 56px; text-align: center; }
+.ust h1 { margin: 12px 0 4px; font-size: 34px; }
+.ust p { margin: 0; opacity: .85; }
+.logo { width: 88px; height: 88px; border-radius: 22px; background: rgba(255,255,255,.15); display: inline-flex; align-items: center; justify-content: center; font-weight: 800; font-size: 20px; letter-spacing: 1px; }
+main { max-width: 720px; margin: -28px auto 40px; padding: 0 16px; }
+.kart { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 18px; padding: 24px; margin-bottom: 16px; }
+h2 { font-size: 20px; margin: 0 0 8px; }
+h3 { font-size: 17px; margin: 22px 0 6px; }
+ul { padding-left: 20px; margin: 6px 0; }
+a { color: var(--vurgu); }
+.soluk { color: var(--soluk); font-size: 14px; }
+footer { text-align: center; color: var(--soluk); font-size: 13px; padding: 0 16px 32px; }
